@@ -1,10 +1,13 @@
+/**
+ * Copyright © SaigonMD, Inc - All Rights Reserved
+ * Licensed under the MIT license.
+ * Written by Tran Quan <tranquan221b@gmail.com>, Jan 2018
+ */
 //
 //  KJTutorial.swift
 //  Goody
 //
-//  Created by Kenji on 29/5/17.
-//  Copyright © 2017 DevLander. All rights reserved.
-//
+
 
 import UIKit
 
@@ -54,16 +57,16 @@ struct KJTutorial {
   }
   
   static func textTutorial(focusRectangle: CGRect, text: String, textPosition: CGPoint) -> KJTutorial {
-    let attrs = [NSFontAttributeName : UIFont.systemFont(ofSize: 18),
-                 NSForegroundColorAttributeName : UIColor.white]
+    let attrs = [NSAttributedStringKey.font : UIFont.systemFont(ofSize: 18),
+                 NSAttributedStringKey.foregroundColor : UIColor.white]
     let message = NSAttributedString(string: text, attributes: attrs)
     let tutorial = KJTutorial(focusRectangle: focusRectangle, focusRectangleCornerRadius: 4.0, message: message, messagePosition: textPosition, icon: nil, iconFrame: .zero, isArrowHidden: false)
     return tutorial
   }
   
   static func textWithIconTutorial(focusRectangle: CGRect, text: String, textPosition: CGPoint, icon: UIImage, iconFrame: CGRect) -> KJTutorial {
-    let attrs = [NSFontAttributeName : UIFont.systemFont(ofSize: 18),
-                 NSForegroundColorAttributeName : UIColor.white]
+    let attrs = [NSAttributedStringKey.font : UIFont.systemFont(ofSize: 18),
+                 NSAttributedStringKey.foregroundColor : UIColor.white]
     let message = NSAttributedString(string: text, attributes: attrs)
     let tutorial = KJTutorial(focusRectangle: focusRectangle, focusRectangleCornerRadius: 4.0, message: message, messagePosition: textPosition, icon: icon, iconFrame: iconFrame, isArrowHidden: true)
     return tutorial

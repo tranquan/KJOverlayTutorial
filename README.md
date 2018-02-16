@@ -1,6 +1,16 @@
 # KJOverlayTutorial
 An convenient way to display tutorial overlay for iOS
 
+# Release
+
+## 1.0.0
++ Initial release
++ Support Swift 3.x
+
+## 2.0.0
++ Add animations
++ Support Swift 4.x
+
 # Usage
 
 ### Text with Icon Tutorial

@@ -1,10 +1,13 @@
+/**
+ * Copyright © SaigonMD, Inc - All Rights Reserved
+ * Licensed under the MIT license.
+ * Written by Tran Quan <tranquan221b@gmail.com>, Jan 2018
+ */
 //
 //  KJOverlayTutorialVC.swift
 //  Goody
 //
-//  Created by Kenji on 29/5/17.
-//  Copyright © 2017 DevLander. All rights reserved.
-//
+
 
 import UIKit
 
@@ -63,7 +66,7 @@ class KJOverlayTutorialVC: UIViewController {
     self.removeFromParentViewController()
   }
   
-  func handleTapGesture(gesture: UITapGestureRecognizer) {
+  @objc func handleTapGesture(gesture: UITapGestureRecognizer) {
     self.showNextTutorial()
   }
   

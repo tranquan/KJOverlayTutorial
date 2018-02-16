@@ -1,10 +1,13 @@
+/**
+ * Copyright © SaigonMD, Inc - All Rights Reserved
+ * Licensed under the MIT license.
+ * Written by Tran Quan <tranquan221b@gmail.com>, Jan 2018
+ */
 //
 //  ClassExt.swift
 //  OverlayTutorial
 //
-//  Created by Kenji on 13/5/17.
-//  Copyright © 2017 DevLander. All rights reserved.
-//
+
 
 import UIKit
 
@@ -71,7 +74,7 @@ extension CGPoint {
 extension UIFont {
   
   func sizeOf(string: String, constrainedToWidth width: CGFloat) -> CGSize {
-    return NSString(string: string).boundingRect(with: CGSize(width: width, height: 9999_9999), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName : self], context: nil).size
+    return NSString(string: string).boundingRect(with: CGSize(width: width, height: 9999_9999), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font : self], context: nil).size
   }
   
 }
