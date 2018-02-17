@@ -69,3 +69,13 @@ self.tutorialVC.tutorials = tutorials
 self.tutorialVC.showInViewController(self)
 ```
 </br><img src="Screenshots/screen3.png" width="320">
+
+### Using SwiftFontIcon
+
+Check here for correct icon name
+http://astronautweb.co/snippet/font-awesome/
+
+Because FontAwesome provide icon name is not correct:
+https://fontawesome.com/icons?d=gallery
+
+For example: "hand-point-up", actually is "handoup"

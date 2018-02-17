@@ -1,12 +1,8 @@
 /**
  * Copyright © SaigonMD, Inc - All Rights Reserved
  * Licensed under the MIT license.
- * Written by Tran Quan <tranquan221b@gmail.com>, Jan 2018
+ * Written by Tran Quan <tranquan221b@gmail.com>, Feb 2018
  */
-//
-//  KJTutorial.swift
-//  Goody
-//
 
 
 import UIKit

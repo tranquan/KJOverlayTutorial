@@ -17,14 +17,17 @@
 		BA9AC9651EE66518005541FB /* ico_hand1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9AC9621EE66518005541FB /* ico_hand1@2x.png */; };
 		BA9AC9661EE66518005541FB /* ico_hand2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9AC9631EE66518005541FB /* ico_hand2@2x.png */; };
 		BA9AC9681EE6656D005541FB /* ico_qr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9AC9671EE6656D005541FB /* ico_qr@2x.png */; };
+		BAC9F2B02036EB8300FBE97E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BAC9F2AF2036EB8300FBE97E /* README.md */; };
 		BAF375F41EC5C7A80038104C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF375F31EC5C7A80038104C /* AppDelegate.swift */; };
 		BAF375F91EC5C7A80038104C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF375F71EC5C7A80038104C /* Main.storyboard */; };
 		BAF375FB1EC5C7A80038104C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF375FA1EC5C7A80038104C /* Assets.xcassets */; };
 		BAF375FE1EC5C7A80038104C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF375FC1EC5C7A80038104C /* LaunchScreen.storyboard */; };
 		BAF376061EC5C7CF0038104C /* KJOverlayTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF376051EC5C7CF0038104C /* KJOverlayTutorialVC.swift */; };
+		F045A77307E4F046A79DEE52 /* Pods_OverlayTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBE538DB087F01B086FE17C /* Pods_OverlayTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		845135DA0BB14325E11D6F3B /* Pods-OverlayTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlayTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-OverlayTutorial/Pods-OverlayTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		BA59D45E1EC71CD000C4848E /* KJTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJTutorial.swift; sourceTree = "<group>"; };
 		BA59D4601EC71CFB00C4848E /* ClassExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExt.swift; sourceTree = "<group>"; };
 		BA9AC9581EE65905005541FB /* TutorialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		BA9AC9621EE66518005541FB /* ico_hand1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_hand1@2x.png"; path = "Resource/ico_hand1@2x.png"; sourceTree = SOURCE_ROOT; };
 		BA9AC9631EE66518005541FB /* ico_hand2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_hand2@2x.png"; path = "Resource/ico_hand2@2x.png"; sourceTree = SOURCE_ROOT; };
 		BA9AC9671EE6656D005541FB /* ico_qr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_qr@2x.png"; path = "Resource/ico_qr@2x.png"; sourceTree = SOURCE_ROOT; };
+		BAC9F2AF2036EB8300FBE97E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		BAF375F01EC5C7A80038104C /* OverlayTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF375F31EC5C7A80038104C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF375F81EC5C7A80038104C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		BAF375FD1EC5C7A80038104C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAF375FF1EC5C7A80038104C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAF376051EC5C7CF0038104C /* KJOverlayTutorialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJOverlayTutorialVC.swift; sourceTree = "<group>"; };
+		CFBE538DB087F01B086FE17C /* Pods_OverlayTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverlayTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DD55525E77AA13E2A9B7E8 /* Pods-OverlayTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlayTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverlayTutorial/Pods-OverlayTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F045A77307E4F046A79DEE52 /* Pods_OverlayTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061A9B88217DB8AF95E0EE48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD55525E77AA13E2A9B7E8 /* Pods-OverlayTutorial.debug.xcconfig */,
+				845135DA0BB14325E11D6F3B /* Pods-OverlayTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F8B032448B2BE0674FC6478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBE538DB087F01B086FE17C /* Pods_OverlayTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA9AC9551EE652C8005541FB /* 0-Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,7 @@
 			children = (
 				BAF375FA1EC5C7A80038104C /* Assets.xcassets */,
 				BAF375FF1EC5C7A80038104C /* Info.plist */,
+				BAC9F2AF2036EB8300FBE97E /* README.md */,
 			);
 			name = SupportingFiles;
 			sourceTree = "<group>";
@@ -101,6 +126,8 @@
 			children = (
 				BAF375F21EC5C7A80038104C /* OverlayTutorial */,
 				BAF375F11EC5C7A80038104C /* Products */,
+				061A9B88217DB8AF95E0EE48 /* Pods */,
+				6F8B032448B2BE0674FC6478 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF376021EC5C7A80038104C /* Build configuration list for PBXNativeTarget "OverlayTutorial" */;
 			buildPhases = (
+				A8830B1F4BD4874CDCEC900A /* [CP] Check Pods Manifest.lock */,
 				BAF375EC1EC5C7A80038104C /* Sources */,
 				BAF375ED1EC5C7A80038104C /* Frameworks */,
 				BAF375EE1EC5C7A80038104C /* Resources */,
+				C42B22BE8E85415F3BD779C5 /* [CP] Embed Pods Frameworks */,
+				CC60A8EFC4293C8A05B97589 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,11 +222,68 @@
 				BA9AC9651EE66518005541FB /* ico_hand1@2x.png in Resources */,
 				BA9AC9681EE6656D005541FB /* ico_qr@2x.png in Resources */,
 				BAF375FB1EC5C7A80038104C /* Assets.xcassets in Resources */,
+				BAC9F2B02036EB8300FBE97E /* README.md in Resources */,
 				BAF375F91EC5C7A80038104C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8830B1F4BD4874CDCEC900A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OverlayTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42B22BE8E85415F3BD779C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OverlayTutorial/Pods-OverlayTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverlayTutorial/Pods-OverlayTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC60A8EFC4293C8A05B97589 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverlayTutorial/Pods-OverlayTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAF375EC1EC5C7A80038104C /* Sources */ = {
@@ -331,11 +418,12 @@
 		};
 		BAF376031EC5C7A80038104C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DD55525E77AA13E2A9B7E8 /* Pods-OverlayTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ETHERR2CP7;
 				INFOPLIST_FILE = OverlayTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenji.app.OverlayTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -345,11 +433,12 @@
 		};
 		BAF376041EC5C7A80038104C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845135DA0BB14325E11D6F3B /* Pods-OverlayTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ETHERR2CP7;
 				INFOPLIST_FILE = OverlayTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenji.app.OverlayTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";

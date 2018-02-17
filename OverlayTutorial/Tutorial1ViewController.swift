@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftIconFont
+
 
 class Tutorial1ViewController: UIViewController {
   
@@ -36,7 +38,7 @@ class Tutorial1ViewController: UIViewController {
     
     // tut1
     let focusRect1 = self.tvTut.frame
-    let icon1 = UIImage(named: "ico_hand")!
+    let icon1 = UIImage(from: .FontAwesome, code: "handoup", textColor: .white, backgroundColor: .clear, size: CGSize(width: 72, height: 72))
     let icon1Frame = CGRect(x: self.view.bounds.width/2-72/2, y: focusRect1.maxY + 12, width: 72, height: 72)
     let message1 = "Hello, this is tutorial 1"
     let message1Center = CGPoint(x: self.view.bounds.width/2, y: icon1Frame.maxY + 24)

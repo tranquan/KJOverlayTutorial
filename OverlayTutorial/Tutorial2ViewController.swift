@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftIconFont
+
 
 class Tutorial2ViewController: UIViewController {
   

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftIconFont
+
 
 class Tutorial3ViewController: UIViewController {
   
@@ -49,7 +51,7 @@ class Tutorial3ViewController: UIViewController {
     
     // tut2
     let focusRect2 = self.btnTut1.frame
-    let icon2 = UIImage(named: "ico_hand1")!
+    let icon2 = UIImage(from: .FontAwesome, code: "handoup", textColor: .white, backgroundColor: .clear, size: CGSize(width: 72, height: 72))
     let icon2Frame = CGRect(x: self.view.bounds.width/2-72/2, y: focusRect2.maxY + 12, width: 72, height: 72)
     let message2 = "Tap to update your profile"
     let message2Center = CGPoint(x: self.view.bounds.width/2, y: icon2Frame.maxY + 24)
@@ -57,7 +59,7 @@ class Tutorial3ViewController: UIViewController {
     
     // tut3
     let focusRect3 = self.btnTut2.frame
-    let icon3 = UIImage(named: "ico_hand1")!
+    let icon3 = UIImage(from: .FontAwesome, code: "handoup", textColor: .white, backgroundColor: .clear, size: CGSize(width: 72, height: 72))
     let icon3Frame = CGRect(x: self.view.bounds.width/2-72/2, y: focusRect3.maxY + 12, width: 72, height: 72)
     let message3 = "Tap to update your payments"
     let message3Center = CGPoint(x: self.view.bounds.width/2, y: icon3Frame.maxY + 24)
@@ -65,7 +67,7 @@ class Tutorial3ViewController: UIViewController {
     
     // tut4
     let focusRect4 = self.btnTut3.frame
-    let icon4 = UIImage(named: "ico_hand1")!
+    let icon4 = UIImage(from: .FontAwesome, code: "handoup", textColor: .white, backgroundColor: .clear, size: CGSize(width: 72, height: 72))
     let icon4Frame = CGRect(x: self.view.bounds.width/2-72/2, y: focusRect4.maxY + 12, width: 72, height: 72)
     let message4 = "Tap to edit your settings"
     let message4Center = CGPoint(x: self.view.bounds.width/2, y: icon4Frame.maxY + 24)
