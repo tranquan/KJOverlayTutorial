@@ -17,8 +17,8 @@ class Tutorial3ViewController: UIViewController {
   @IBOutlet weak var btnTut2: UIButton!
   @IBOutlet weak var btnTut3: UIButton!
   
-  lazy var tutorialVC: KJOverlayTutorialVC = {
-    return KJOverlayTutorialVC()
+  lazy var tutorialVC: KJOverlayTutorialViewController = {
+    return KJOverlayTutorialViewController()
   }()
 
   override func viewDidLoad() {

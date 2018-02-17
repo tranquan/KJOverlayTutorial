@@ -11,8 +11,10 @@ An convenient way to display tutorial overlay for iOS
 + Add animations
 + Support Swift 4.x
 
-# Usage
+# Preview
+</br><img src="Screenshots/demo.gif" width="320">
 
+# Usage
 ### Text with Icon Tutorial
 ```swift
 // tut1

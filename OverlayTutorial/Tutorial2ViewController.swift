@@ -14,8 +14,8 @@ class Tutorial2ViewController: UIViewController {
   
   @IBOutlet weak var imvTut: UIImageView!
   
-  lazy var tutorialVC: KJOverlayTutorialVC = {
-    return KJOverlayTutorialVC()
+  lazy var tutorialVC: KJOverlayTutorialViewController = {
+    return KJOverlayTutorialViewController()
   }()
 
   override func viewDidLoad() {

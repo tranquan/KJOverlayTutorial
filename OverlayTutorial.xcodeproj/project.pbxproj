@@ -22,7 +22,7 @@
 		BAF375F91EC5C7A80038104C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF375F71EC5C7A80038104C /* Main.storyboard */; };
 		BAF375FB1EC5C7A80038104C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF375FA1EC5C7A80038104C /* Assets.xcassets */; };
 		BAF375FE1EC5C7A80038104C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF375FC1EC5C7A80038104C /* LaunchScreen.storyboard */; };
-		BAF376061EC5C7CF0038104C /* KJOverlayTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF376051EC5C7CF0038104C /* KJOverlayTutorialVC.swift */; };
+		BAF376061EC5C7CF0038104C /* KJOverlayTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF376051EC5C7CF0038104C /* KJOverlayTutorialViewController.swift */; };
 		F045A77307E4F046A79DEE52 /* Pods_OverlayTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBE538DB087F01B086FE17C /* Pods_OverlayTutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,7 @@
 		BAF375FA1EC5C7A80038104C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF375FD1EC5C7A80038104C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAF375FF1EC5C7A80038104C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAF376051EC5C7CF0038104C /* KJOverlayTutorialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJOverlayTutorialVC.swift; sourceTree = "<group>"; };
+		BAF376051EC5C7CF0038104C /* KJOverlayTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJOverlayTutorialViewController.swift; sourceTree = "<group>"; };
 		CFBE538DB087F01B086FE17C /* Pods_OverlayTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverlayTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD55525E77AA13E2A9B7E8 /* Pods-OverlayTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverlayTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverlayTutorial/Pods-OverlayTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +84,7 @@
 			children = (
 				BA59D4601EC71CFB00C4848E /* ClassExt.swift */,
 				BA59D45E1EC71CD000C4848E /* KJTutorial.swift */,
-				BAF376051EC5C7CF0038104C /* KJOverlayTutorialVC.swift */,
+				BAF376051EC5C7CF0038104C /* KJOverlayTutorialViewController.swift */,
 			);
 			name = "0-Class";
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			files = (
 				BA59D45F1EC71CD000C4848E /* KJTutorial.swift in Sources */,
 				BA9AC9591EE65905005541FB /* TutorialsViewController.swift in Sources */,
-				BAF376061EC5C7CF0038104C /* KJOverlayTutorialVC.swift in Sources */,
+				BAF376061EC5C7CF0038104C /* KJOverlayTutorialViewController.swift in Sources */,
 				BAF375F41EC5C7A80038104C /* AppDelegate.swift in Sources */,
 				BA9AC95D1EE65A18005541FB /* Tutorial2ViewController.swift in Sources */,
 				BA59D4611EC71CFB00C4848E /* ClassExt.swift in Sources */,
